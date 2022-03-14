@@ -2,10 +2,9 @@
  * Run using the mongo shell. For remote databases, ensure that the
  * connection string is supplied in the command line. For example:
  * localhost:
- *   mongo productTracker scripts/init.mongo.js
+ * mongo productTracker scripts/init.mongo.js
  * Atlas:
  */
-
 /* global db print */
 /* eslint no-restricted-globals: "off" */
 
@@ -14,14 +13,14 @@ db.products.remove({});
 const initialProducts = [
   {
     id: 1,
-    name: "Levi's",
+    name: "HnM",
     category: 'Jeans',
     price: '30',
     imageUrl: 'https://picsum.photos/500/500',
   },
   {
     id: 2,
-    name: 'Allen Solly',
+    name: 'Aeropostale',
     category: 'Shirts',
     price: '25',
     imageUrl: 'https://picsum.photos/500/500',
