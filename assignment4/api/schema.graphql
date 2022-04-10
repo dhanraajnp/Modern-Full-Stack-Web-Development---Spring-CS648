@@ -16,7 +16,7 @@ type Product {
   imageUrl: String
 }
 
-"Toned down Prodcut, used as inputs, without server generated values."
+"Toned down Product, used as inputs, without server generated values."
 input ProductInputs {
   name: String!
   category: Category!
