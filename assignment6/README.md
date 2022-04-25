@@ -6,4 +6,5 @@
 
 ### Run
 1. Navigate to api/ folder and run `npm start` to bring up the API server. 
-2. Navigate to ui/ folder and run `npm start` to initiate the UI. Go to http://localhost:8000/ to access the App.
+2. Navigate to ui/ folder and run `npm start` to initiate the UI. 
+3. Go to http://localhost:8000/ to access the App.
